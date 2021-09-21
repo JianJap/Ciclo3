@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        body{
+            background-color: blue;
+            display: grid;
+            grid-template-columns: 256px 512px;
+            grid-template-rows: 80px 40px 100px 60px;
+            gap: 5px;
+        }
+        header{
+            background-color: blueviolet;
+            grid-column: 1 / 3;
+        }
+        nav{
+            background-color: brown;
+            grid-column: 1 / span2;
+        }
+        aside{
+            background-color: cadetblue;
+        }
+        main{
+            background-color: chartreuse;
+        }
+        footer{
+            background-color: cyan;
+            grid-column: 1/3;
+        }
+    </Style>
+</head>
+<body>
+    <header>Encabezados</header>
+    <nav>Navegacion</nav>
+    <aside>Menu lateralContenido</aside>
+    <main>contenido</main>
+    <footer>Pie de pagina</footer>    
+</body>
+</html>
