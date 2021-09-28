@@ -5,6 +5,7 @@
         <title>Registro</title>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
         <link rel="shortcut icon" href=" ://i.blogs.es/bc08e5/html5_logo_256/450_1000.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/formulario.css">
     </head>
     <body>
         <!-- Contenido de mi pag web -->
@@ -13,11 +14,7 @@
             <h1>Formulario de Registro</h1>
             <nav>
                 <!-- Menús o iconos de menús -->
-                <ul>
-                    <li>
-                        <a href="#">Regresar</a>
-                    </li>
-                </ul>
+            
             </nav>
         </header>
         <aside>
@@ -26,31 +23,53 @@
         <main>
             <!-- Contenido principal -->
             <form action="#" method="post">
-
-                <label for="nombre">Nombre</label>
-                <input type="text" name="nombre" placeholder="Ej: Luis">
-                <br><br>
-                <label for="apellidos">Apellidos</label>
-                <input type="text" name="apellidos" placeholder="Ej Rodriguez Perez">
-                <br><br>
-                <label for="pais">País de residencia</label>
-                <input type="text" name="pais" placeholder="Ej: Perú">
-                <br><br>
-                <label for="ciudad">Ciudad de residencia</label>
-                <input type="text" name="ciudad" placeholder="Ej: Lima">
-                <br><br>
-                <label for="direccion">Dirección de residencia</label>
-                <input type="text" name="direccion" placeholder="Ej: Cra 66a Cll 17">
-                <br><br>
-                <label for="correo">Correo Electrónico</label>
-                <input type="text" name="correo" placeholder="Ej: luis.rodriguez@gmail.com">
-                <br><br>
-                <label for="numero">Número Telefónico</label>
-                <input type="text" name="numero" placeholder="Ej: +53 2345446756">
-                <br><br>
-                <button type="submit">Guardar</button>
-                <button type="reset">Borrar</button>
-                <br><br>
+                <div id="contenedor">
+                                     
+                    
+                <div>
+                    <label for="nombre">Nombre</label>
+                      <input type="text" name="nombre" placeholder="Ej: Luis">
+                </div>
+                    
+                <div>
+                    <label for="apellidos">Apellidos</label>
+                    <input type="text" name="apellidos" placeholder="Ej Rodriguez Perez">
+                </div>                    
+                        
+                    
+                <div>
+                    <label for="pais">País de residencia</label>
+                    <input type="text" name="pais" placeholder="Ej: Perú">
+                </div>
+                <div>
+                    <label for="ciudad">Ciudad de residencia</label>
+                    <input type="text" name="ciudad" placeholder="Ej: Lima">
+                </div>
+                        
+                <div>
+                    <label for="direccion">Dirección de residencia</label>
+                    <input type="text" name="direccion" placeholder="Ej: Cra 66a Cll 17">
+                </div>
+                        
+                <div>
+                    <label for="correo">Correo Electrónico</label>
+                    <input type="text" name="correo" placeholder="Ej: luis.rodriguez@gmail.com">
+                </div>
+                    
+                <div>
+                    <label for="numero">Número Telefónico</label>
+                    <input type="text" name="numero" placeholder="Ej: +53 2345446756">
+                </div>
+                    
+                    <button type="submit" class="personalizar_guardar">
+                    <img height="7px" src="https://image.flaticon.com/icons/png/512/14/14258.png" 
+                    alt="save"> Guardar
+                    </button>
+                    <button type="reset" class="personalizar_eliminar">
+                        <img height="7px" src="https://image.flaticon.com/icons/png/512/51/51388.png" 
+                        alt="delete">  Eliminar
+                    </button>
+                </div>
             </form>
         </main>
         <footer>
